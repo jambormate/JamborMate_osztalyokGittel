@@ -33,6 +33,20 @@
 			karakter1.Szintlepes();
 
 			Console.WriteLine(karakter1.ToString() + "\n" + karakter1.Tamadas());
+
+			Urhajo urhajo1 = new("Csillagpor", 120, 20, 60);
+			Urhajo urhajo2 = new("Üstökös", 5);
+
+			Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
+
+			urhajo2.Indulas();
+			urhajo1.Tankolas(10);
+			urhajo1.Landolas();
+
+			Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
+
+
+
 		}
 
 	}

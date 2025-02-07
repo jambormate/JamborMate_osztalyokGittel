@@ -45,9 +45,16 @@
 
 			Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
 
+			KemKuldetes kemKuldetes1 = new("Kacsa", "USA", 3, 100);
+			KemKuldetes kemKuldetes2 = new("Zsiráf", "Németország");
 
+			Console.WriteLine(kemKuldetes1.ToString() + "\n" + kemKuldetes2.ToString());
 
-		}
+			kemKuldetes2.VeszelySzintNovelese(2);
+			kemKuldetes2.SikerEselyNovelese(25);
+
+            Console.WriteLine(kemKuldetes2.ToString()+ "\n" + kemKuldetes2.KuldetesInditasa());
+        }
 
 	}
 }

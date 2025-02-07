@@ -23,6 +23,17 @@
 			film1.HosszNovelese(25);
 
             Console.WriteLine(film1.ToString() + "\n" + film1.Jatszas());
-        }	
+
+			Karakter karakter1 = new("Károly", 4, 175, 55);
+			Karakter karakter2 = new("Sándor", 20);
+
+			Console.WriteLine(karakter1.ToString() + "\n" + karakter2.ToString());
+
+			karakter1.Gyogyulas(25);
+			karakter1.Szintlepes();
+
+			Console.WriteLine(karakter1.ToString() + "\n" + karakter1.Tamadas());
+		}
+
 	}
 }
